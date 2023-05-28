@@ -1,0 +1,28 @@
+In this app we have authentication screen at first which allows us to login or sign up there's also a forgot password option which helps in changing the password.
+
+the signup gives otp to email and then a token is generated which is then stored locally and helps to call differnet apis for that user.
+
+in login also the token is made and stored in local memory using shared preferences.
+
+then we have oour main screen which is locker room which integrates many apis given in the api_manager and gives out the screen where the person can see their history of playing golf which is kept in the app
+and in the top options are given which helps in selecting rounds of the person.
+
+There's a bottom bar which contains locker room range new round explore and golfer.
+
+The range gives us the articles of driving, approaches play, short game and putting right now there is no article put.
+
+in the new round the user has to enter the information of the game they want to feed on the first screen a date is selected on which the person played the game and after that a list of courses is loaded from databases
+from the backedn through api and alos that persons saved courses which are courses on which the person has already played.
+then the course id is taken and used to fetch the tees present in that course also through api from the backend and after selecting the tee the tee id is also used in the rounds.
+Now the person has to select no of holes present in that game options being 1 and 9.
+When the person selects the hole type now both the course id and tee id is used whenever new hole is selected and the first value of tee shot is already filled based on the data in the backend.
+
+the person can either delete the round or save the round in order to exit playing.
+
+Now in the explore section twitter api is used and  the twitter account of shotlocker is shown.
+
+in the golfer tab there is profile picture changing option also profile settings where you can change your personal information.
+logout can be donefrom here which deletes the token from the memory.
+FAQ's gives the information also terms of user.
+
+follow us on instagram needs to take the user to insta page of shotlocker which isnt integrated yet but in future will be.

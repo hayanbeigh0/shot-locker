@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "833237221269",
+    "project_id": "shot-locker-f9de3",
+    "storage_bucket": "shot-locker-f9de3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:833237221269:android:0bdc566ae9da97713e809c",
+        "android_client_info": {
+          "package_name": "com.credicxo.shotlocker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "833237221269-ja1l2untp72kl0sr5r9b2lp3sniqnjq6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.credicxo.shotlocker",
+            "certificate_hash": "4ec8a3eb172172589e9dd805c9c59f1624f23c7c"
+          }
+        },
+        {
+          "client_id": "833237221269-6vorrak69em6tid267rbuaq8kdqvocfu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtZQEm_xOoTegeIXLzstNm4Edcv0LhfPM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "833237221269-6vorrak69em6tid267rbuaq8kdqvocfu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "833237221269-iam8bha5sm6vckqks9npjspjse1ats00.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.shotLocker"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
